@@ -1,0 +1,22 @@
+{
+  "name": "ratelimiter",
+  "version": "1.0.0",
+  "description": "A rate limiter example",
+  "main": "runner.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Abhinav Dhasmana",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.1.0",
+    "redis": "^2.8.0",
+    "sinon": "^7.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "redis-mock": "^0.43.0"
+  }
+}
